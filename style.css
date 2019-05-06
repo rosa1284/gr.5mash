@@ -17,3 +17,115 @@ section {
 img {
     width: 100%;
 }
+
+
+
+
+
+
+
+#splash {
+    background-image: url(billeder/mash_splashfoto.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 69% 0%;
+    max-width: none;
+}
+
+
+#groent {
+    background-color: #59071D;
+}
+
+.circle1 {
+    background-image: url(billeder/gulerodder.jpg);
+    background-position: 100%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+#koed {
+    background-color: #F2E6CE;
+}
+
+.circle2 {
+    background-image: url(billeder/koed.jpg);
+    background-position: 100%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+#fisk {}
+
+.circle3 {
+    background-image: url(billeder/fisk.jpg);
+    background-position: 100%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+.menu_knapper {
+    display: flex;
+
+}
+
+
+#menu .mad a {
+    background-color: #393432;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+#menu .dessert a {
+    background-color: #393432;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#menu .vinkort a {
+    background-color: #393432;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#menu .barkort a {
+    background-color: #393432;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+}
+
+#menu .mad a:hover {
+
+    color: lightpink;
+    background-color: black;
+}
