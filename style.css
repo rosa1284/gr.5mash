@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-
+    padding: 0rem;
 }
 
 section {
@@ -14,11 +14,20 @@ section {
 
 }
 
-img {
-    width: 100%;
+.col {
+    padding-top: 1.3rem;
 }
 
 
+.txt {
+    padding: 1.5rem;
+}
+
+
+
+img {
+    width: 100%;
+}
 
 
 
@@ -36,51 +45,90 @@ img {
 
 #groent {
     background-color: #59071D;
+    color: white;
+
+}
+
+
+
+#groent .col {
+    display: flex;
+    justify-content: center;
+
+
 }
 
 .circle1 {
     background-image: url(billeder/gulerodder.jpg);
     background-position: 100%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    border: 2px solid black;
+
 
 }
 
 #koed {
     background-color: #F2E6CE;
+
 }
+
+#koed .col {
+    display: flex;
+    justify-content: center;
+}
+
 
 .circle2 {
     background-image: url(billeder/koed.jpg);
     background-position: 100%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    border: 2px solid black;
 
 }
 
-#fisk {}
+
+#fisk {
+    background-image: url(billeder/fiskbaggrund.jpg);
+    color: white;
+
+}
+
+
+#fisk .col {
+    display: flex;
+    justify-content: center;
+}
 
 .circle3 {
     background-image: url(billeder/fisk.jpg);
     background-position: 100%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    border: 2px solid black;
 
 }
 
 .menu_knapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
+#menu {
+    background-color: #F2E6CE;
 
-#menu .mad a {
+
+}
+
+#menu .col {
+    padding-top: 0rem;
+}
+
+
+#menu .knap a {
     background-color: #393432;
     color: white;
     text-decoration: none;
@@ -88,44 +136,55 @@ img {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
+    padding-left: 8rem;
+    padding-right: 8rem;
 
 }
 
-#menu .dessert a {
-    background-color: #393432;
-    color: white;
-    text-decoration: none;
-    border-radius: 13px;
-    padding: 15px;
-    text-align: center;
-    flex-grow: 1;
-}
-
-#menu .vinkort a {
-    background-color: #393432;
-    color: white;
-    text-decoration: none;
-    border-radius: 13px;
-    padding: 15px;
-    text-align: center;
-    flex-grow: 1;
-}
-
-#menu .barkort a {
-    background-color: #393432;
-    color: white;
-    text-decoration: none;
-    border-radius: 13px;
-    padding: 15px;
-    text-align: center;
-    flex-grow: 1;
-}
 
 
-}
+
 
 #menu .mad a:hover {
 
     color: lightpink;
     background-color: black;
+}
+
+
+#selvskab {
+    background-color: #59071D;
+    color: white;
+
+
+}
+
+
+#selvskab .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#info {
+    background-image: url(billeder/fiskbaggrund.jpg);
+    color: white;
+
+}
+
+
+.circle4 {
+    background-image: url(billeder/fisk.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
 }
