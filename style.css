@@ -12,6 +12,7 @@
 }
 */
 
+/*Generelle indstillinger for CSS*/
 body {
     margin: 0;
     padding: 0px;
@@ -100,9 +101,7 @@ a:hover {
     -webkit-touch-callout: none;
 }
 
-/*
- * hamburger menu
- */
+
 #menuToggle span {
     display: block;
     width: 33px;
@@ -217,6 +216,9 @@ a:hover {
 */
 
 /*Burger menu slut */
+
+
+/*Start side CSS*/
 
 #splash {
     background-image: url(billeder/splash_mash.png);
@@ -488,12 +490,14 @@ footer .col .txt {
 }
 
 `
-/*RESTAURANTER*/
+/*RESTAURANTER SIDE*/
 
 
-#frederiksberg .sectionwrapper {
-    background-color: #59071D;
-    color: white;
+
+
+#frederiksberg {
+    background-color: #F2E6CE;
+
 }
 
 #frederiksberg .col {
@@ -513,6 +517,77 @@ footer .col .txt {
 
 #frederiksberg .laes_mere1 {
     background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid white;
+
+}
+
+#aarhus {
+    background-color: #F2E6CE;
+
+}
+
+#aarhus .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#aarhus .firkant1 {
+    background-image: url(billeder/koed.jpg);
+    background-position: 100%;
+    width: 48s0px;
+    height: 350px;
+
+}
+
+#aarhus .laes_mere2 {
+    background-color: #F2E6CE;
+    ;
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid black;
+
+}
+
+#airport {
+    background-color: gray;
+    color: white;
+
+}
+
+#airport .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.circle7 {
+    background-image: url(billeder/fisk.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#airport .laes_mere3 {
+    background-color: gray;
     ;
     color: white;
     text-decoration: none;
