@@ -28,6 +28,9 @@ section {
     padding-top: 35.3px;
 }
 
+.col2 {
+    padding-top: 35.3px;
+}
 
 .txt {
     padding: 25px;
@@ -216,12 +219,28 @@ a:hover {
 /*Burger menu slut */
 
 #splash {
-    background-image: url(billeder/mash_splashfoto.jpg);
+    background-image: url(billeder/splash_mash.png);
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: 69% 0%;
     max-width: none;
+    display: flex;
+}
+
+#splash .logo {
+    background-image: url(billeder/mash_logo_transparent.png);
+
+    background-position: 100%;
+    width: 950px;
+    height: 308px;
+
+
+    /*
+    position: absolute;
+    left: 328px;
+    top: 300px;
+*/
 }
 
 
@@ -300,10 +319,13 @@ a:hover {
 
 }
 
+
+
+
 .menu_knapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
@@ -341,6 +363,35 @@ a:hover {
     background-color: black;
 }
 
+#menu .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+
+#menu .col2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    flex-basis: 600px;
+
+
+
+}
+
+#menu .menu_knapper {
+    flex-grow: 1;
+    flex-basis: 100px;
+
+
+
+}
+
+
+
+
 
 #selvskab {
     background-color: #59071D;
@@ -355,6 +406,12 @@ a:hover {
     justify-content: center;
 }
 
+#book {
+    background-image: url(billeder/booking.jpg);
+
+
+
+}
 
 #info {
     background-image: url(billeder/fiskbaggrund.jpg);
@@ -391,6 +448,83 @@ footer .col .txt {
     padding-bottom: 0px;
 }
 
+
+
+/*KONTAKT SIDEN*/
+
+#kontakt .sectionwrapper {
+    background-color: #59071D;
+    color: white;
+}
+
+#kontakt .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+.circle5 {
+    background-image: url(billeder/fisk.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#kontakt .book_knap {
+    background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid white;
+
+}
+
+`
+/*RESTAURANTER*/
+
+
+#frederiksberg .sectionwrapper {
+    background-color: #59071D;
+    color: white;
+}
+
+#frederiksberg .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+.circle6 {
+    background-image: url(billeder/fisk.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#frederiksberg .laes_mere1 {
+    background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid white;
+
+}
 
 /*
 @media only screen and (min-width: 600px) {
