@@ -1,10 +1,20 @@
+.hidden {
+    display: none;
+    /*    transform: scale(0);*/
+    /*    transform: translateX(-100%);
+    opacity: 0;*/
+}
+
+
+/*
 * {
     box-sizing: border-box;
 }
+*/
 
 body {
     margin: 0;
-    padding: 0rem;
+    padding: 0px;
 }
 
 section {
@@ -15,12 +25,12 @@ section {
 }
 
 .col {
-    padding-top: 1.3rem;
+    padding-top: 35.3px;
 }
 
 
 .txt {
-    padding: 1.5rem;
+    padding: 25px;
 }
 
 
@@ -29,9 +39,22 @@ img {
     width: 100%;
 }
 
+/* Burger menu */
 
 
 
+#burgerknap {
+    display: inline-block;
+}
+
+#burgermenu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+
+/*Burger menu slut */
 
 #splash {
     background-image: url(billeder/mash_splashfoto.jpg);
@@ -124,7 +147,7 @@ img {
 }
 
 #menu .col {
-    padding-top: 0rem;
+    padding-top: 0px;
 }
 
 
@@ -136,8 +159,8 @@ img {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
@@ -182,9 +205,32 @@ img {
 
 }
 
+#info .col .txt {
+    text-align: center;
+
+}
+
 footer {
     background-color: #333333;
     color: white;
-    padding: 1.5rem;
+    padding: 1.5px;
     text-align: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    #burgerknap {
+        display: none;
+    }
+
+    #burgermenu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+    #burgermenu li {
+        display: inline-block;
+    }
 }
