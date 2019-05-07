@@ -9,12 +9,70 @@
 
     <link type="text/css" rel="stylesheet" href="style.css">
     <meta name="robots" content="noindex">
+    <link href='../D:\kea\03-redesign\mash\mash_redesign\font\Engravers Roman Bold.woff' rel='style.css' type='text/css'>
+
+
 
 </head>
 
+<nav role='navigation'>
+    <div id="menuToggle">
+        <!--
+    En "Hidden" box der fungere som click box, i stedet for js
+    -->
+        <input type="checkbox" />
+
+        <!--
+    Span classes agerer som burgermenu streger
+    -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+    -->
+        <ul id="menuburger">
+            <li><a href="#">
+                    Forside
+                </a></li>
+            <li><a href="#">
+                    Booking
+                </a></li>
+            <li><a href="#">
+                    Restauranter
+                </a></li>
+            <li><a href="#">
+                    Menu
+                </a></li>
+            <li><a href="#">
+                    Selskaber
+                </a></li>
+            <li><a href="#">
+                    Kød
+                </a></li>
+            <li><a href="#">
+                    Kontakt
+                </a></li>
+
+
+        </ul>
+    </div>
+    <ul id="menuburger2">
+        <a href="#">Forside</a>
+        <a href="#">Booking</a>
+        <a href="#">Restauranter</a>
+        <a href="#">Menu</a>
+        <a href="#">Selskaber</a>
+        <a href="#">Kød</a>
+        <a href="#">Kontakt</a>
+    </ul>
+</nav>
+
+
 <body>
 
-    <header>
+    <!--
+   <header>
         <nav>
 
             <div id="burgerknap">☰</div>
@@ -33,6 +91,8 @@
         </nav>
 
     </header>
+-->
+
 
     <section id="splash">
 
@@ -120,7 +180,29 @@
 
     </section>
 
+    <section id="film">
 
+        <div id="video-container">
+            <!-- Video -->
+            <video id="video" width="640" height="365">
+
+                <source src="video/mash.mp4" type="video/mp4">
+                <p>
+                    Your browser doesn't support HTML5 video.
+                    <a href="video/mash.mp4">Download</a> the video instead.
+                </p>
+            </video>
+            <!-- Video Controls -->
+            <div id="video-controls">
+                <button type="button" id="play-pause">Play</button>
+                <input type="range" id="seek-bar" value="0">
+                <button type="button" id="mute">Mute</button>
+                <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                <button type="button" id="full-screen">Full-Screen</button>
+            </div>
+        </div>
+
+    </section>
 
     <section id="menu">
 
@@ -174,7 +256,7 @@
             </div>
             <div class="col">
                 <div class="txt">
-                    <h1>Selvskaber</h1>
+                    <h1>Selskaber</h1>
                     <p>Lhilliquatur sit molorporum volupis mod ute cus sum et, odit, simporion provit, et inum et duntur
                         sequaest eliquidi denimus deribus
                         ipsae eic tectur seque consequ
@@ -243,19 +325,27 @@
 
     <footer>
         <div class="col">
-            <p>MASH Frederiksberg
-                Gammel Kongevej 116
-                1850 Frederiksberg </p>
+            <div class="txt">
+                <p>MASH Frederiksberg
+                    Gammel Kongevej 116
+                    1850 Frederiksberg </p>
+            </div>
         </div>
         <div class="col">
-            <p>frederiksberg@mashsteak.dk </p>
+            <div class="txt">
+                <p>frederiksberg@mashsteak.dk </p>
+            </div>
         </div>
         <div class="col">
-            <p>+45 33 13 93 00</p>
+            <div class="txt">
+                <p>+45 33 13 93 00</p>
+            </div>
         </div>
     </footer>
 
 
     <script src="script.js"></script>
 
-</body></html>
+</body>
+
+</html>
