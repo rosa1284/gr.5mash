@@ -1,5 +1,8 @@
 window.addEventListener("load", sidenVises);
 
+
+
+
 // Video
 var video = document.getElementById("video");
 
@@ -17,6 +20,9 @@ var volumeBar = document.getElementById("volume-bar");
 
 function sidenVises() {
     console.log("sidenVises");
+
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+
 
     //    document.querySelector("#burgerknap").addEventListener("click", toggleMenu);
 
@@ -48,6 +54,8 @@ function sidenVises() {
     volumeBar.addEventListener("change", volume);
 
 }
+
+
 
 
 //function toggleMenu() {
@@ -102,6 +110,19 @@ function mute() {
 }
 
 
+
+function toggleMenu() {
+    console.log("toggleMenu");
+    document.querySelector("#menu").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
+    } else {
+        document.querySelector("#menuknap").textContent = "X";
+    }
+}
 
 
 function fullScreen() {

@@ -45,178 +45,7 @@ img {
 
 
 
-
-
-/* Burger menu */
-
-body {
-    margin: 0;
-    padding: 0;
-
-    /*background: #232323;*/
-    /*    color: #cdcdcd;*/
-    font-family: "Avenir Next", "Avenir", sans-serif;
-
-    overflow-x: hidden;
-    /* nødvendig for at gemme menu ordentligt i højere side af skærm  */
-}
-
-a {
-    text-decoration: none;
-    color: #232323;
-
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: tomato;
-}
-
-#menuToggle {
-    display: block;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-
-    z-index: 1;
-
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-#menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-
-    cursor: pointer;
-
-    opacity: 0;
-    /* hide */
-    z-index: 2;
-    /* sæt oven på hamburger */
-
-    -webkit-touch-callout: none;
-}
-
-
-#menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-
-    background: #cdcdcd;
-    border-radius: 3px;
-
-    z-index: 1;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        opacity 0.55s ease;
-}
-
-#menuToggle span:first-child {
-    transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-/*
- * Laver de tre span classes til et kryds
- *
- */
-#menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-}
-
-/*
- * Gemmer den midterste
- */
-#menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Den sidste streg går i den anden retning
- */
-#menuToggle input:checked ~ span:nth-last-child(2) {
-    opacity: 1;
-    transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * absolute positioned
- * top left
- */
-#menuburger {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 0;
-    padding: 50px;
-    padding-top: 125px;
-    right: -100px;
-
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-
-    transform-origin: 0% 0%;
-    transform: translate(100%, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-}
-
-#menuburger2 a {
-    color: blue;
-    padding: 2rem;
-
-}
-
-#menuburger li {
-    padding: 10px 0;
-    font-size: 22px;
-}
-
-/*
- * Fade in fra venstre
- */
-#menuToggle input:checked ~ ul {
-    transform: scale(1.0, 1.0);
-    opacity: 1;
-}
-
-#menuburger2 {
-    display: none;
-}
-
-
-/*
-#burgerknap {
-    display: inline-block;
-}
-
-#burgermenu {
-    list-style-type: none;
-    transition: transform .3s;
-    transform-origin: top left;
-}
-
-*/
-
-/*Burger menu slut */
+/* BURGER NY START */
 
 
 /*Start side CSS*/
@@ -332,19 +161,19 @@ a:hover {
 
 }
 
-#menu {
+#menukort {
     background-color: #F2E6CE;
     color: #3F3A36;
 
 
 }
 
-#menu .col {
+#menukort .col {
     padding-top: 0px;
 }
 
 
-#menu .knap a {
+#menukort .tryk a {
     background-color: #3F3A36;
     color: white;
     text-decoration: none;
@@ -361,13 +190,13 @@ a:hover {
 
 
 
-#menu .mad a:hover {
+#menukort .mad a:hover {
 
     color: lightpink;
     background-color: black;
 }
 
-#menu .sectionwrapper {
+#menukort .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -375,7 +204,7 @@ a:hover {
 }
 
 
-#menu .col2 {
+#menukort .col2 {
     display: flex;
     flex-wrap: nowrap;
     flex-grow: 2;
@@ -385,7 +214,7 @@ a:hover {
 
 }
 
-#menu .menu_knapper {
+#menukort .menu_knapper {
     flex-grow: 1;
     flex-basis: 100px;
 
@@ -971,65 +800,291 @@ footer .col .txt {
     padding-bottom: 0px;
 }
 
-/*
-@media only screen and (min-width: 600px) {
 
-    #burgerknap {
-        display: none;
-    }
 
-    #burgermenu.hidden {
-        transform: translateX(0);
-        opacity: 1;
 
-    }
 
-    #burgermenu li {
-        display: inline-block;
-    }
+
+body {
+    margin: 0;
+    padding: 0;
+
+    /*background: #232323;*/
+
+    font-family: "Avenir Next", "Avenir", sans-serif;
+
+    overflow-x: hidden;
+    /* nødvendig for at gemme menu ordentligt i højere side af skærm  */
 }
-*/
 
-@media only screen and (min-width: 600px) {
+a {
+    text-decoration: none;
+    color: white;
+
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: tomato;
+}
+
+#flag {
+    display: flex;
+
+}
+
+#flag2 {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+#engelskpic2 {
+    margin-left: -6vw;
+
+}
+
+#tyskpic2 {
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-left: -3vw;
+}
+
+#tyskpic {
+    padding-right: 3vw;
+}
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide */
+    z-index: 2;
+    /* sæt oven på hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+/*
+ * hamburger menu
+ */
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/*
+ * Laver de tre span classes til et kryds
+ *
+ */
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * Gemmer den midterste
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Den sidste streg går i den anden retning
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * absolute positioned
+ * top left
+ * dropdown menu fra burger
+ */
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 0;
+    padding-top: 125px;
+    right: -100px;
+
+    background: rgba(0, 0, 0, 0.9);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu2 a {
+    color: white;
+
+
+}
+
+#menu2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 0;
+    margin-bottom: 0vw;
+    padding-bottom: 2vw;
+
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/*
+ * Fade in fra venstre
+ */
+#menuToggle input:checked ~ ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+}
+
+#menu2 {
+    display: none;
+}
+
+span {
+    background-color: white;
+}
+
+#knapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    align-self: flex-end;
+
+}
+
+#knap {
+    margin-left: -0.5vw
+}
+
+
+@media only screen and (min-width: 601px) {
     #menuToggle {
         display: none;
 
     }
 
 
-    #menuburger {
+    #menu {
         background: rgba(255, 255, 255, 0);
     }
 
-    #menuburger li {
+    #menu li {
         display: inline-block;
     }
 
 
-    #menuburger.hidden {
+    #menu.hidden {
         transform: translateX(0);
         opacity: 1;
     }
 
-    #menuburger2 {
-        display: block;
+    #menu2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vw;
+
+    }
+
+    @media only screen and (min-width: 601px) {
+        #flag2 {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-grow: 1;
+            justify-content: flex-start;
+
+        }
+
+        #menu2 a {
+            padding-right: 1vw;
+            padding-left: 1vw;
+        }
+
+        #knapper {
+            justify-content: space-between;
+        }
+    }
+
+    @media only screen and (min-width: 743px) {
+        #engelskpic2 {
+            margin-left: -2vw;
+
+        }
     }
 
 
+    @media only screen and (min-width: 1100px) {
+        #splash .logo {
+            background-image: url(billeder/mash_logo_transparent.png);
+
+            background-position: 100%;
+            width: 1090px;
+            height: 358px;
+            background-size: cover;
+            position: absolute;
+            left: 230px;
+            top: 230px;
+        }
 
 
+        @media only screen and (min-width: 1440px) {
+            #engelskpic2 {
+                margin-left: -3.4vw;
 
-}
-
-@media only screen and (min-width: 1100px) {
-    #splash .logo {
-        background-image: url(billeder/mash_logo_transparent.png);
-
-        background-position: 100%;
-        width: 1090px;
-        height: 358px;
-        background-size: cover;
-        position: absolute;
-        left: 230px;
-        top: 230px;
-    }
+            }
+        }
