@@ -504,7 +504,7 @@ a:hover {
 
 }
 
-#frederiksberg .laes_mere1 {
+#frederiksberg .laes_mere1 a {
     background-color: #59071D;
     ;
     color: white;
@@ -513,10 +513,16 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
+}
+
+#frederiksberg .laes_mere1 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #aarhus {
@@ -539,7 +545,7 @@ a:hover {
 
 }
 
-#aarhus .laes_mere2 {
+#aarhus .laes_mere2 a {
     background-color: #F2E6CE;
     ;
     color: #3F3A36;
@@ -548,10 +554,16 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid #3F3A36;
 
+}
+
+#aarhus .laes_mere2 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #airport {
@@ -576,7 +588,7 @@ a:hover {
 
 }
 
-#airport .laes_mere3 {
+#airport .laes_mere3 a {
     background-image: url(billeder/fiskbaggrund.jpg);
     ;
     color: white;
@@ -585,10 +597,16 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
+}
+
+#airport .laes_mere3 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #bredgade {
@@ -610,7 +628,7 @@ a:hover {
 
 }
 
-#bredgade .laes_mere4 {
+#bredgade .laes_mere4 a {
     background-color: #59071D;
     ;
     color: white;
@@ -619,12 +637,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
 }
 
+#bredgade .laes_mere4 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 #dusseldorf {
     background-color: #F2E6CE;
@@ -646,7 +669,7 @@ a:hover {
 
 }
 
-#dusseldorf .laes_mere5 {
+#dusseldorf .laes_mere5 a {
     background-color: #F2E6CE;
     ;
     color: #3F3A36;
@@ -655,12 +678,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid #3F3A36;
 
 }
 
+#dusseldorf .laes_mere5 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 #hamburg {
     background-image: url(billeder/fiskbaggrund.jpg);
@@ -684,7 +712,7 @@ a:hover {
 
 }
 
-#hamburg .laes_mere6 {
+#hamburg .laes_mere6 a {
     background-image: url(billeder/fiskbaggrund.jpg);
     ;
     color: white;
@@ -693,13 +721,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
 }
 
+#hamburg .laes_mere6 a:hover {
 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 
 #london {
@@ -723,7 +755,7 @@ a:hover {
 
 }
 
-#london .laes_mere7 {
+#london .laes_mere7 a {
     background-color: #59071D;
     ;
     color: white;
@@ -732,12 +764,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
 }
 
+#london .laes_mere7 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 #odense {
     background-color: #F2E6CE;
@@ -759,7 +796,7 @@ a:hover {
 
 }
 
-#odense .laes_mere8 {
+#odense .laes_mere8 a {
     background-color: #F2E6CE;
     ;
     color: #3F3A36;
@@ -768,10 +805,16 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid #3F3A36;
 
+}
+
+#odense .laes_mere8 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #penthouse {
@@ -796,7 +839,7 @@ a:hover {
 
 }
 
-#penthouse .laes_mere9 {
+#penthouse .laes_mere9 a {
     background-image: url(billeder/fiskbaggrund.jpg);
     ;
     color: white;
@@ -805,10 +848,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
+}
+
+
+#penthouse .laes_mere9 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -831,7 +881,7 @@ a:hover {
 
 }
 
-#rungsted .laes_mere10 {
+#rungsted .laes_mere10 a {
     background-color: #59071D;
     ;
     color: white;
@@ -840,12 +890,17 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid white;
 
 }
 
+#rungsted .laes_mere10 a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 #skov {
     background-color: #F2E6CE;
@@ -870,7 +925,7 @@ a:hover {
 
 }
 
-#skov .laes_mere11 {
+#skov .laes_mere11 a {
     background-color: #F2E6CE;
     ;
     color: #3F3A36;
@@ -879,14 +934,18 @@ a:hover {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 137px;
+    padding-right: 137px;
     border: 1px solid #3F3A36;
 
 }
 
 
+#skov .laes_mere11 a:hover {
 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 
 footer {
