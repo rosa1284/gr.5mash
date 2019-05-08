@@ -511,8 +511,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -521,6 +521,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#frederiksberg .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#frederiksberg .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #aarhus {
@@ -552,8 +571,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid #3F3A36;
 
 }
@@ -562,6 +581,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#aarhus .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+#aarhus .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #airport {
@@ -595,8 +633,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -605,6 +643,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#airport .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#airport .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #bredgade {
@@ -635,8 +692,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -645,6 +702,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#bredgade .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+#bredgade .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #dusseldorf {
@@ -676,8 +752,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid #3F3A36;
 
 }
@@ -686,6 +762,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#dusseldorf .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#dusseldorf .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #hamburg {
@@ -719,8 +814,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -731,6 +826,24 @@ footer .col {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+#hamburg .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+#hamburg .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
 
 #london {
     background-color: #59071D;
@@ -762,8 +875,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -773,6 +886,26 @@ footer .col {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+#london .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#london .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
 
 #odense {
     background-color: #F2E6CE;
@@ -803,8 +936,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid #3F3A36;
 
 }
@@ -813,6 +946,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#odense .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+#odense .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #penthouse {
@@ -846,8 +998,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -858,6 +1010,26 @@ footer .col {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+#penthouse .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#penthouse .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
 
 
 #rungsted {
@@ -888,8 +1060,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid white;
 
 }
@@ -898,6 +1070,26 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#rungsted .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+#rungsted .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 #skov {
@@ -932,8 +1124,8 @@ footer .col {
     padding: 15px;
     text-align: center;
     flex-grow: 1;
-    padding-left: 137px;
-    padding-right: 137px;
+    padding-left: 110px;
+    padding-right: 110px;
     border: 1px solid #3F3A36;
 
 }
@@ -943,6 +1135,25 @@ footer .col {
 
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+#skov .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+
+#skov .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
 }
 
 
