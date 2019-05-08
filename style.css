@@ -34,7 +34,7 @@ section {
 }
 
 .txt {
-    padding: 25px;
+    padding: 55px;
 }
 
 
@@ -489,14 +489,14 @@ footer .col .txt {
 
 }
 
-`
-/*RESTAURANTER SIDE*/
+
 
 
 
 
 #frederiksberg {
-    background-color: #F2E6CE;
+    background-color: #59071D;
+    color: white;
 
 }
 
@@ -507,7 +507,7 @@ footer .col .txt {
 
 
 .circle6 {
-    background-image: url(billeder/fisk.jpg);
+    background-image: url(billeder/frederiksberg.jpg);
     background-position: 100%;
     width: 350px;
     height: 350px;
@@ -526,7 +526,7 @@ footer .col .txt {
     flex-grow: 1;
     padding-left: 100px;
     padding-right: 100px;
-    border: 3px solid white;
+    border: 1px solid white;
 
 }
 
@@ -542,9 +542,9 @@ footer .col .txt {
 
 
 #aarhus .firkant1 {
-    background-image: url(billeder/koed.jpg);
+    background-image: url(billeder/aarhus.jpg);
     background-position: 100%;
-    width: 48s0px;
+    width: 480px;
     height: 350px;
 
 }
@@ -560,7 +560,7 @@ footer .col .txt {
     flex-grow: 1;
     padding-left: 100px;
     padding-right: 100px;
-    border: 3px solid black;
+    border: 1px solid black;
 
 }
 
@@ -578,7 +578,7 @@ footer .col .txt {
 
 
 .circle7 {
-    background-image: url(billeder/fisk.jpg);
+    background-image: url(billeder/airport.jpg);
     background-position: 100%;
     width: 350px;
     height: 350px;
@@ -597,7 +597,298 @@ footer .col .txt {
     flex-grow: 1;
     padding-left: 100px;
     padding-right: 100px;
-    border: 3px solid white;
+    border: 1px solid white;
+
+}
+
+#bredgade {
+    background-color: #59071D;
+    color: white;
+}
+
+#bredgade .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#bredgade .firkant2 {
+    background-image: url(billeder/bredgade.jpg);
+    background-position: 100%;
+    width: 480px;
+    height: 350px;
+
+}
+
+#bredgade .laes_mere4 {
+    background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid white;
+
+}
+
+
+#dusseldorf {
+    background-color: #F2E6CE;
+
+}
+
+#dusseldorf .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#dusseldorf .firkant3 {
+    background-image: url(billeder/dusseldorf.jpg);
+    background-position: 100%;
+    width: 480px;
+    height: 350px;
+
+}
+
+#dusseldorf .laes_mere5 {
+    background-color: #F2E6CE;
+    ;
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+
+}
+
+
+#hamburg {
+    background-color: gray;
+    color: white;
+
+}
+
+#hamburg .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.circle8 {
+    background-image: url(billeder/hamburg.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#hamburg .laes_mere6 {
+    background-color: gray;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid white;
+
+}
+
+
+
+
+#london {
+    background-color: #59071D;
+    color: white;
+
+}
+
+#london .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+.circle9 {
+    background-image: url(billeder/london.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#london .laes_mere7 {
+    background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid white;
+
+}
+
+
+#odense {
+    background-color: #F2E6CE;
+
+}
+
+#odense .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#odense .firkant4 {
+    background-image: url(billeder/odense.jpg);
+    background-position: 100%;
+    width: 480px;
+    height: 350px;
+
+}
+
+#odense .laes_mere8 {
+    background-color: #F2E6CE;
+    ;
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+
+}
+
+#penthouse {
+    background-color: gray;
+    color: white;
+
+}
+
+#penthouse .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.circle10 {
+    background-image: url(billeder/penthouse.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#penthouse .laes_mere9 {
+    background-color: gray;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid white;
+
+}
+
+
+#rungsted {
+    background-color: #59071D;
+    color: white;
+}
+
+#rungsted .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+#rungsted .firkant5 {
+    background-image: url(billeder/rungsted.jpg);
+    background-position: 100%;
+    width: 480px;
+    height: 350px;
+
+}
+
+#rungsted .laes_mere10 {
+    background-color: #59071D;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid white;
+
+}
+
+
+#skov {
+    background-color: #F2E6CE;
+
+
+}
+
+#skov .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.circle11 {
+    background-image: url(billeder/skovridderkroen.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#skov .laes_mere11 {
+    background-color: #F2E6CE;
+    ;
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
 
 }
 
