@@ -25,6 +25,16 @@ section {
 
 }
 
+@font-face {
+    font-family: 'engravers';
+    src: url('font/EngraversRomanBT-Bold.woff2') format('woff2'), url('font/EngraversRomanBT-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kefa';
+    src: url('font/kefa-regular-webfont.woff2') format('woff2'), url('font/kefa-regular-webfont.woff') format('woff');
+}
+
 .col {
     padding-top: 35.3px;
 }
@@ -43,7 +53,25 @@ img {
     width: 100%;
 }
 
+p {
 
+    font-family: kefa;
+    font-size: 1rem;
+}
+
+h1 {
+
+    font-family: 'engravers';
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+h4 {
+
+    font-family: 'engravers';
+    font-size: 1.5rem;
+    letter-spacing: -2px;
+}
 
 /* BURGER NY START */
 
@@ -1172,7 +1200,316 @@ footer .col .txt {
 }
 
 
+/*Kød html side*/
+#koed.html backgroundimage {
+    display: flex;
+    flex-wrap: wrap;
+    position: center;
+}
 
+
+@font-face {
+    font-family: 'engravers';
+    src: url('font/EngraversRomanBT-Bold.woff2') format('woff2'), url('font/EngraversRomanBT-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kefa';
+    src: url('font/kefa-regular-webfont.woff2') format('woff2'), url('font/kefa-regular-webfont.woff') format('woff');
+}
+
+#kend_dit_koed .sectionwrapper {
+    background-image: url(billeder/fiskbaggrund.jpg);
+    margin: -25px 0px 40px 0px;
+    color: #fff3dc;
+}
+
+#kend_dit_koed .sectionwrapper h1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0px 20px;
+    color: white;
+    font-family: 'engravers';
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+#kobe {
+    background-color: #fff3dc;
+
+}
+
+#kobe .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+#kobe .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
+#amerikansk .sectionwrapper p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 20px 20px;
+    color: white;
+    font-family: kefa;
+    font-size: 1rem;
+
+}
+
+#amerikansk img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+    color: white;
+}
+
+#amerikansk .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px 0px 0px 0px;
+}
+
+
+#amerikansk .sectionwrapper {
+    background-color: #fff3dc;
+}
+
+.circle20 {
+    background-image: url(fotos/steak.jpg);
+    background-position: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+
+}
+
+#amerikansk .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+#amerikansk .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
+
+#kobe .sectionwrapper h1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0px 20px;
+    color: #3d3834;
+    font-family: 'engravers';
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+#kobe .sectionwrapper h2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 20px;
+    color: #3d3834;
+    font-family: engravers;
+    font-size: 1.5rem;
+    letter-spacing: -2px;
+}
+
+#kobe .sectionwrapper p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 20px 20px;
+    color: #3d3834;
+    font-family: kefa;
+    font-size: 1rem;
+}
+
+h3 {
+    margin: 0px 20px 20px 20px;
+    color: #5e141c;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: kefa;
+}
+
+#infocirkel {
+    width: 300px;
+    height: 300px;
+    background-color: #5e141c;
+    border-radius: 150px;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#infocirkel p {
+    color: white;
+    position: center;
+    margin: 87px 25px 25px 25px;
+    text-align: center;
+    transform: rotate(10deg);
+    font-family: kefa;
+    font-size: 1.1rem;
+}
+
+.anbefaler1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -20px 20px 20px;
+    background-color: #5e141c;
+    border-radius: 25px;
+
+}
+
+#anbefaler .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+#anbefaler .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
+#dansk .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+#dansk .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
+.anbefaler1 p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 30px 20px;
+    background-color: #5e141c;
+    color: white;
+    font-family: kefa;
+    font-size: 1rem;
+}
+
+
+
+.anbefaler1 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 20px 20px;
+    background-color: #5e141c;
+    color: white;
+    font-family: 'engravers';
+    font-size: 2.25rem;
+    letter-spacing: -2px;
+}
+
+#kobe .sectionwrapper img {
+    position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-size: 100%;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#amerikansk {
+    background-color: #fff3dc;
+
+}
+
+#dansk {
+    background-color: #fff3dc;
+}
+
+#uru {
+    background-color: #fff3dc;
+}
+
+
+#uru .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+#uru .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+}
+
+#vidste_du {
+    background-image: url(billeder/fiskbaggrund.jpg);
+    margin: -25px 0px 70px 0px;
+}
+
+#vidste_du h1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0px 20px;
+    color: white;
+    font-family: 'engravers';
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+#vidste_du p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 20px 20px;
+    color: white;
+    font-family: kefa;
+    font-size: 1rem;
+
+}
 
 
 
